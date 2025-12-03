@@ -44,3 +44,23 @@ iframe#tela {
     height: 471px;
     width: 269px;
 }
+
+section#redes-sociais img {
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+    box-sizing: border-box;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img:hover {
+    transform: translate(-2px,-7px);
+    border: 1px solid rgba(255, 255, 255, 0.603);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.664);
+    transition: 0.5s;
+    transition: border 0.7s;
+}
